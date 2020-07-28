@@ -4,7 +4,9 @@ const Images = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites
 class PokeCard extends Component {
   render() { 
     
+
     let imgSrc = `${Images}${this.props.id}.png`
+    
   return (<div>
     <h1>{this.props.name}</h1>
     <img src={imgSrc}/>
